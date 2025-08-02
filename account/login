@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><script>process = { env: {"REDO_API_URL":"https://returns-server.getredo.com","REDO_CUSTOMER_PORTAL_SERVER_URL":"https://customer-portal-server.getredo.com"} };</script><title>Customer Portal</title><link ref="icon" href="__root__favicon.ico"/><meta name="application-name" content="Returns & Exchanges"/><meta name="author" content="Redo Tech, Inc."/><meta name="description" content="Create a return or exchange."/><meta name="viewport" content="width=device-width,initial-scale=1"/><script>if (typeof process === "undefined") {
+        process = {};
+      }
+      if (!process.env) {
+        process.env = {};
+      }
+      __REACT_DEVTOOLS_GLOBAL_HOOK__ = { isDisabled: true };</script><script>widget_id = '07l5zqcxj22plmw';
+      base_path = '/apps/redo';</script><script defer="defer" src="https://returns.getredo.com/main-b1d7d7fe.js"></script><link href="https://returns.getredo.com/main-29c0c699.css" rel="stylesheet"></head><body><main class="root" id="root"></main></body></html>
