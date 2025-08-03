@@ -5612,7 +5612,7 @@
       if (currentVariantId && variantRedirectMap[currentVariantId]) {
         // Redirect to the mapped URL for this variant
         console.log('Redirecting to:', variantRedirectMap[currentVariantId]);
-        window.location.href = variantRedirectMap[currentVariantId];
+        window.open(variantRedirectMap[currentVariantId], '_blank');
       } else {
         // Fallback: alert user if no mapping found
         console.warn('No redirect URL found for variant ID:', currentVariantId);
